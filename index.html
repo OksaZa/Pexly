@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pexly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <div>
+        <header>
+            <div class="header-container">
+                <div class="logo-box">
+                    <a class="logo-link" href="./index.html">
+                        <svg class="logo-icon" width="20" height="20">
+                            <use href="./images/symbol-defs.svg#icon-logo"></use>
+                        </svg>Pexly
+                    </a>
+                </div>
+                <nav class="nav-container">
+                    <ul class="nav-box">
+                        <li><a class="nav-link" href="#services">Services</a></li>
+                        <li><a class="nav-link" href="#team">Team</a></li>
+                        <li><a class="nav-link" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+                <button class="header-btn brand-btn" type="button" data-modal-open>Get a Qoute</button>
+                <button class="mobile-menu-open" type="button" data-menu-open>
+                    <svg class="burger-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-burger"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="container">
+                <div class="mobile-menu is-hidden" data-menu>
+                    <div class="mobile-menu-header">
+                        <div class="logo-box menu-logo-box">
+                            <a class="logo-link" href="./index.html">
+                                <svg class="logo-icon" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-logo"></use>
+                                </svg>Pexly
+                            </a>
+                        </div>
+                        <button class="close-mobile-menu" type="button" data-menu-close>
+                            <svg class="close-mobile-icon" width="24" height="24">
+                                <use href="./images/symbol-defs.svg#icon-close-btn"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <nav>
+                        <ul class="mobile-menu-list">
+                            <li><a class="nav-link" href="#services">Services</a></li>
+                            <li><a class="nav-link" href="#team">Team</a></li>
+                            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="main-section">
+                <div class="container main-container">
+                    <h1 class="main-title">B2B Lead Generation Services by <span class="text-brand-decor">Pexly</span></h1>
+                    <p class="main-text">We use a data-driven approach to ensure that our clients receive the most qualified leads possible, increasing their chances of conversion and ultimately boosting their bottom line. Whether you're a small startup or a large enterprise, our lead generation services can help take your business to the next level.</p>
+                    <button class="main-btn" type="button" data-modal-open>Book a call</button>
+                </div>
+            </section>
+            <section id="services" class="services-section section">
+                <div class="container">
+                    <h2 class="title services-title">How Your Outsourced Lead Generation Team Gets Results For You</h2>
+                    <p class="services-text">We combine behavioral data with proven processes and a passion for making connections to track and manage potential customers</p>
+                    <ul class="services-list">
+                        <li class="services-list-item">
+                            <div class="services-list-img-box">
+                                <img src="./images/onboarding.png" srcset="./images/onboarding@2x.png 2x" alt="Onboarding" width="150" height="150">
+                            </div>
+                            <h3 class="services-list-title subtitle">Onboarding</h3>
+                            <p class="services-list-text">We dig in deep to learn your products, brand voice, value propositions and goals to develop strategies and tactics for finding the right leads.</p>
+                        </li>
+                        <li class="services-list-item">
+                            <div class="services-list-img-box">
+                                <img src="./images/prospecting.png" srcset="./images/prospecting@2x.png 2x" alt="Prospecting" width="150" height="166">
+                            </div>
+                            <h3 class="services-list-title subtitle">Prospecting</h3>
+                            <p class="services-list-text">Our team can search for leads quickly and efficiently on its own. We also work with our marketing team to find new ways to capture leads.</p>
+                        </li>
+                        <li class="services-list-item">
+                            <div class="services-list-img-box">
+                                <img src="./images/lead.png" srcset="./images/lead@2x.png 2x" alt="Lead Qualifying" width="150" height="150">
+                            </div>
+                            <h3 class="services-list-title subtitle">Lead Qualifying</h3>
+                            <p class="services-list-text">Our reps qualify all leads to make sure they’re a perfect match for your products or services — because bad leads aren’t worth your time.</p>
+                        </li>
+                        <li class="services-list-item">
+                            <div class="services-list-img-box">
+                                <img src="./images/calls.png" srcset="./images/calls@2x.png 2x" alt="Calls & Closing" width="150" height="150">
+                            </div>
+                            <h3 class="services-list-title subtitle">Calls & Closing</h3>
+                            <p class="services-list-text">We pass leads on to our sales team. Our highly trained sales team develops leads through calls and emails, allowing us to close more deals.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="team" class="team-section section">
+                <div class="container team-container">
+                    <h2 class="title">Our Team</h2>
+                    <ul class="team-list">
+                        <li class="team-list-item">
+                            <div class="team-card-overlay">
+                                <img src="./images/michel-m.jpg" srcset="./images/michel-m@2x.jpg 2x" width="305" height="320" alt="Michel Mertens Photo" class="team-photo">
+                                <div class="team-overlay-text">
+                                    <p class="overlay-first-paragraph">
+                                        Michel, the Managing Director of Pexly,<br>
+                                        A man of great character, integrity,<br>
+                                        With a heart full of kindness and empathy,<br>
+                                        He leads his team with vision and strategy.<br>
+                                    </p>
+                                    <p>
+                                        His wisdom and experience, a guiding light,<br>
+                                        His leadership style, humble and upright,<br>
+                                        His passion for excellence, an inspiring sight,<br>
+                                        He sets the bar high, day and night.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="team-card-title subtitle">Michel Mertens</h3>
+                                <p class="team-card-text">Managing Director</p>
+                                <ul class="social-list">
+                                    <li class="social-list-item">
+                                        <a target="_blank" rel="noopener noreferrer nofolow" href="https://www.linkedin.com/in/michel-mertens-a8778517/" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="mailto:michel.mertens@pexly.com" class="social-link">
+                                            <svg class="social-icon" width="18" height="14">
+                                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a target="_blank" href="./nophone.html" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <div class="team-card-overlay">
+                                <img src="./images/andrii-chukhrii.jpg" srcset="./images/andrii-chukhrii@2x.jpg 2x" width="305" height="320" alt="Andrii Chukhrii Photo" class="team-photo">
+                                <div class="team-overlay-text">
+                                    <p class="overlay-first-paragraph">
+                                        Andrii, our team leader, strong and true,<br>
+                                        A guiding light for all that we do,<br>
+                                        With a heart full of kindness, and a vision so bright<br>
+                                        He leads us forward, towards success and the light.<br>
+                                    </p>
+                                    <p>
+                                        His passion for lead generation, a flame that burns,<br>
+                                        His drive to succeed, a lesson that we learn,<br>
+                                        Through ups and downs, his spirit never turns,<br>
+                                        His determination, a fire that forever churns.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="team-card-title subtitle">Andrii Chukhrii</h3>
+                                <p class="team-card-text">Head of lead generation</p>
+                                <ul class="social-list">
+                                    <li class="social-list-item">
+                                        <a target="_blank" rel="noopener noreferrer nofolow" href="https://www.linkedin.com/in/andrii-chukhrii-054872146/" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="mailto:andrii.chukhrii@pexly.com" class="social-link">
+                                            <svg class="social-icon" width="18" height="14">
+                                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a target="_blank" href="./nophone.html" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <div class="team-card-overlay">
+                                <img src="./images/andrii-stakhiv.jpg" srcset="./images/andrii-stakhiv@2x.jpg 2x" width="305" height="320" alt="Andrii Stakhiv Photo" class="team-photo">
+                                <div class="team-overlay-text">
+                                    <p class="overlay-first-paragraph">
+                                        Andrii, the one who verifies,<br>
+                                        A master of details and enterprise,<br>
+                                        The leads we find, he scrutinizes,<br>
+                                        His touch, a guarantee of quality and prizes.<br>
+                                    </p>
+                                    <p>
+                                        With his eagle eyes, he scans each lead,<br>
+                                        Making sure, there's no room for deceit,<br>
+                                        His expertise, an asset we need,<br>
+                                        His verification, a crucial feat.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="team-card-title subtitle">Andrii Stakhiv</h3>
+                                <p class="team-card-text">Lead Generator/Verification Specialist</p>
+                                <ul class="social-list">
+                                    <li class="social-list-item">
+                                        <a target="_blank" rel="noopener noreferrer nofolow" href="https://www.linkedin.com/in/andrii-stakhiv-972174224/" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="mailto:andrii.stakhiv@pexly.com" class="social-link">
+                                            <svg class="social-icon" width="18" height="14">
+                                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a target="_blank" href="./nophone.html" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <div class="team-card-overlay">
+                                <img src="./images/oksana-zakharchuk.jpg" srcset="./images/oksana-zakharchuk@2x.jpg 2x" width="305" height="320" alt="Oksana Zakharchuk Photo" class="team-photo">
+                                <div class="team-overlay-text">
+                                    <p class="overlay-first-paragraph">
+                                        Oksana, the specialist in lead generation,<br>
+                                        A master of her craft, with impeccable dedication,<br>
+                                        With her expertise, she sets the foundation,<br>
+                                        For our team's success, a vital cog in the operation.<br>
+                                    </p>
+                                    <p>
+                                        Her analytical mind, a gift we cherish,<br>
+                                        Her attention to detail, a trait we admire,<br>
+                                        Her hard work, a quality that doesn't perish,<br>
+                                        Her passion for her job, a constant fire.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="team-card-title subtitle">Oksana Zakharchuk</h3>
+                                <p class="team-card-text">Lead Generation Specialist</p>
+                                <ul class="social-list">
+                                    <li class="social-list-item">
+                                        <a target="_blank" rel="noopener noreferrer nofolow" href="https://www.linkedin.com/in/oksana-zakharchuk-92450423a/" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="mailto:oksana.zakharchuk@pexly.com" class="social-link">
+                                            <svg class="social-icon" width="18" height="14">
+                                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="tel:+380952491288" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <div class="team-card-overlay">
+                                <img src="./images/ivan-zakharchuk.jpg" srcset="./images/ivan-zakharchuk@2x.jpg 2x" width="305" height="320" alt="Ivan Zakharchuk Photo" class="team-photo">
+                                <div class="team-overlay-text">
+                                    <p class="overlay-first-paragraph">
+                                        Ivan, the lead generation specialist, strong and wise,<br>
+                                        A master of his trade, with a keen pair of eyes,<br>
+                                        With his expertise, he never compromises,<br>
+                                        For our team's success, he always strives.<br>
+                                    </p>
+                                    <p>
+                                        When he's not at work, he hits the gym,<br>
+                                        A passion for fitness, that never grows dim,<br>
+                                        His discipline, a quality that's never slim,<br>
+                                        His hard work, a dedication we all chime in.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="team-card-title subtitle">Ivan Zakharchuk</h3>
+                                <p class="team-card-text">Lead Generation Specialist</p>
+                                <ul class="social-list">
+                                    <li class="social-list-item">
+                                        <a target="_blank" rel="noopener noreferrer nofolow" href="https://www.linkedin.com/in/ivan-zakharchuk-37736b23a/" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="mailto:ivan.zakharchuk@pexly.com" class="social-link">
+                                            <svg class="social-icon" width="18" height="14">
+                                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="tel:+380997306532" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <div class="team-card-overlay">
+                                <img src="./images/andrii-sheremet.jpg" srcset="./images/andrii-sheremet@2x.jpg 2x" width="305" height="320" alt="Andrii Sheremet Photo" class="team-photo">
+                                <div class="team-overlay-text">
+                                    <p class="overlay-first-paragraph">
+                                        Andrii, the lead generation specialist,<br>
+                                        A master of his trade, with skills that persist,<br>
+                                        Through countless data, he sifts and lists,<br>
+                                        For our team's success, he always insists.<br>
+                                    </p>
+                                    <p>
+                                        His analytical mind, a gift we all envy,<br>
+                                        His attention to detail, a trait we all see,<br>
+                                        His hard work, a quality that never ends,<br>
+                                        His passion for his job, a drive that always mends.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="team-card-title subtitle">Andrii Sheremet</h3>
+                                <p class="team-card-text">Lead Generation Specialist</p>
+                                <ul class="social-list">
+                                    <li class="social-list-item">
+                                        <a target="_blank" href="./nolinkedin.html" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="mailto:andrii.sheremet@pexly.com" class="social-link">
+                                            <svg class="social-icon" width="18" height="14">
+                                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="tel:+380951264485" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li class="team-list-item">
+                            <div class="team-card-overlay">
+                                <img src="./images/hennadii-protsenko.jpg" srcset="./images/hennadii-protsenko@2x.jpg 2x" width="305" height="320" alt="Hennadii Protsenko Photo" class="team-photo">
+                                <div class="team-overlay-text">
+                                    <p class="overlay-first-paragraph">
+                                        Hennadii, a man of experience and precision,<br>
+                                        A colleague we all admire with great recognition,<br>
+                                        His contribution, a source of inspiration,<br>
+                                        His passion, a driving force of great ambition.<br>
+                                    </p>
+                                    <p>
+                                        With his expertise, we always reach new heights,<br>
+                                        With his unwavering commitment, we always do what's right,<br>
+                                        With his leadership, we always stay in sight,<br>
+                                        For our team's success, he's always our guiding light.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="team-card-title subtitle">Hennadii Protsenko</h3>
+                                <p class="team-card-text">Lead Generation Specialist</p>
+                                <ul class="social-list">
+                                    <li class="social-list-item">
+                                        <a target="_blank" rel="noopener noreferrer nofolow" href="" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="mailto:hennadii.protsenko@pexly.com" class="tocial-link">
+                                            <svg class="social-icon" width="18" height="14">
+                                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="tel:+110001111111" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li> -->
+                        <li class="team-list-item">
+                            <div class="team-card-overlay">
+                                <img src="./images/mykhailo-mykolaienko.jpg" srcset="./images/mykhailo-mykolaienko@2x.jpg 2x" width="305" height="320" alt="Mykhailo Mykolaienko Photo" class="team-photo">
+                                <div class="team-overlay-text">
+                                    <p class="overlay-first-paragraph">
+                                        So here's to Mykhailo, the lead generation specialist,<br>
+                                        A vital member of our team, never to be dismissed,<br>
+                                        With his expertise, our goals are always fixed,<br>
+                                        A valued colleague, never to be mixed.<br>
+                                    </p>
+                                    <p>
+                                        With his analytical mind, he uncovers each lead,<br>
+                                        With his sharp intuition, he fulfills our every need,<br>
+                                        With his unyielding dedication, he delivers with speed,<br>
+                                        For our team's success, he's always willing to bleed.<br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team-card-content">
+                                <h3 class="team-card-title subtitle">Mykhailo Mykolaienko</h3>
+                                <p class="team-card-text">Lead Generation Specialist</p>
+                                <ul class="social-list">
+                                    <li class="social-list-item">
+                                        <a target="_blank" href="./nolinkedin.html" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="mailto:mykhailo.mykolaienko@pexly.com" class="social-link">
+                                            <svg class="social-icon" width="18" height="14">
+                                                <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a target="_blank" href="./nophone.html" class="social-link">
+                                            <svg class="social-icon" width="16" height="16">
+                                                <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contacts" class="contacts-section section">
+                <div class="container">
+                    <h2 class="title">Contact Form</h2>
+                    <div class="backdrop">
+                        <div class="modal-window">
+                            <p class="modal-desc-text">Please fill out the form below for your guote. We will come back to you right away.</p>
+                            <form class="modal-form">
+                                <label class="modal-form-field">
+                                    <span class="modal-form-input-desc">First Name*</span>
+                                    <span class="modal-form-input-wrapper">
+                                        <input type="text" name="user-first-name" class="modal-form-input" required>
+                                        <svg class="modal-form-input-icon" width="18" height="18">
+                                           <use href="./images/symbol-defs.svg#icon-modal-name"><use/>
+                                        </svg>
+                                    </span>
+                                </label>
+                                <label class="modal-form-field">
+                                    <span class="modal-form-input-desc">Last Name*</span>
+                                    <span class="modal-form-input-wrapper">
+                                        <input type="text" name="user-last-name" class="modal-form-input" required>
+                                        <svg class="modal-form-input-icon" width="18" height="18">
+                                           <use href="./images/symbol-defs.svg#icon-modal-name"><use/>
+                                        </svg>
+                                    </span>
+                                </label>
+                                <label class="modal-form-field">
+                                    <span class="modal-form-input-desc">Business Email*</span>
+                                    <span class="modal-form-input-wrapper">
+                                        <input type="email" name="user-email" class="modal-form-input" required>
+                                        <svg class="modal-form-input-icon" width="18" height="24">
+                                            <use href="./images/symbol-defs.svg#icon-modal-email"></use>
+                                        </svg>
+                                    </span>
+                                </label>
+                                <label class="modal-form-field">
+                                    <span class="modal-form-input-desc">Phone number*</span>
+                                    <span class="modal-form-input-wrapper">
+                                        <input type="tel" name="user-tel" class="modal-form-input" required>
+                                        <svg class="modal-form-input-icon" width="18" height="24">
+                                            <use href="./images/symbol-defs.svg#icon-modal-tel"></use>
+                                        </svg>
+                                    </span>
+                                </label>
+                                <label class="modal-form-field">
+                                    <span class="modal-form-input-desc">Message</span>
+                                    <textarea name="user-message" class="modal-form-textarea" placeholder="Text input"></textarea>
+                                </label>
+                                <input id="privacy-policy" type="checkbox" class="modal-form-check visually-hidden">
+                                <label for="privacy-policy" class="privacy-policy">
+                                    <span class="modal-form-fake-check">
+                                        <svg class="modal-form-check-icon" width="10" height="8">
+                                            <use href="./images/symbol-defs.svg#icon-modal-checkbox"></use>
+                                        </svg>
+                                    </span>I accept the terms and conditions of the&nbsp;<a target="_blank" rel="noopener noreferrer nofolow" class="privacy-policy-link" href="https://pexly.com/privacy-and-gdpr-policy/">Privacy Policy</a>
+                                </label>
+                                <button type="submit" class="modal-form-submit brand-btn">Get a Qoute</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container footer-container">
+                <div class="desktop-row">
+                    <div class="tablet-row">
+                        <div class="logo-content-box">
+                            <a class="logo-link footer-logo-link" href="./index.html">
+                                <svg class="logo-icon" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-logo-invert"></use>
+                                </svg>Pexly
+                            </a>
+                            <p class="footer-text">Increase customer flow and sales for your business with our team.</p>
+                        </div>
+                        <div class="footer-social-media-box">
+                            <h2 class="footer-title subtitle">Social media</h2>
+                            <ul class="social-list footer-social-list">
+                                <li class="social-list-item">
+                                    <a target="_blank" rel="noopener noreferrer nofolow" href="https://www.instagram.com/pexly_bpo/" class="social-link footer-social-link">
+                                        <svg class="social-icon" width="24" height="24">
+                                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list-item">
+                                    <a target="_blank" rel="noopener noreferrer nofolow" href="https://twitter.com/Pexly_BPO" class="social-link footer-social-link">
+                                        <svg class="social-icon" width="24" height="24">
+                                            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list-item">
+                                    <a target="_blank" rel="noopener noreferrer nofolow" href="https://www.facebook.com/pexly.customer.care" class="social-link footer-social-link">
+                                        <svg class="social-icon" width="24" height="24">
+                                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list-item">
+                                    <a target="_blank" rel="noopener noreferrer nofolow" href="https://www.linkedin.com/company/pexly/mycompany/?viewAsMember=true" class="social-link footer-social-link">
+                                        <svg class="social-icon" width="24" height="24">
+                                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-form-box">
+                        <form>
+                            <label><span class="footer-form-text footer-title subtitle">Subscribe</span>
+                                <span class="footer-form-row">
+                                    <input class="footer-form-input" type="email" name="user-email" placeholder="E-mail" required>
+                                    <button class="footer-form-btn" type="submit">Subscribe
+                                        <svg class="footer-form-icon" width="24" height="24">
+                                            <use href="./images/symbol-defs.svg#icon-airplane"></use>
+                                        </svg>
+                                    </button>
+                                </span>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+                <p class="footer-coperight">Pexly is a registered trademark of Pexly Services Ltd. &#9400 Copyright 2015 – 2022. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <div class="modal-backdrop is-hidden" data-modal>
+            <div class="modal-window modal-window-hidden">
+                <button class="modal-close-btn" data-modal-close>
+                    <svg width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-close-btn"></use>
+                    </svg>
+                </button>
+                <p class="modal-desc-text modal-window-text">Please fill out the form below for your guote. We will come back to you right away.</p>
+                <form class="modal-form modal-form-hidden">
+                    <label class="modal-form-field modal-form-field-hidden">
+                        <span class="modal-form-input-desc modal-form-input-desc-hidden">First Name*</span>
+                        <span class="modal-form-input-wrapper modal-form-input-wrapper-hidden">
+                            <input type="text" name="user-first-name" class="modal-form-input modal-form-input-hidden" required>
+                            <svg class="modal-form-input-icon" width="18" height="18">
+                                <use href="./images/symbol-defs.svg#icon-modal-name"><use/>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc modal-form-input-desc-hidden">Last Name*</span>
+                        <span class="modal-form-input-wrapper modal-form-input-wrapper-hidden">
+                            <input type="text" name="user-last-name" class="modal-form-input modal-form-input-hidden" required>
+                            <svg class="modal-form-input-icon" width="18" height="18">
+                                <use href="./images/symbol-defs.svg#icon-modal-name"><use/>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc modal-form-input-desc-hidden">Business Email*</span>
+                        <span class="modal-form-input-wrapper modal-form-input-wrapper-hidden">
+                            <input type="email" name="user-email" class="modal-form-input modal-form-input-hidden" required>
+                            <svg class="modal-form-input-icon" width="18" height="24">
+                                <use href="./images/symbol-defs.svg#icon-modal-email"></use>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc modal-form-input-desc-hidden">Phone number*</span>
+                        <span class="modal-form-input-wrapper modal-form-input-wrapper-hidden">
+                            <input type="tel" name="user-tel" class="modal-form-input modal-form-input-hidden" required>
+                            <svg class="modal-form-input-icon" width="18" height="24">
+                                <use href="./images/symbol-defs.svg#icon-modal-tel"></use>
+                            </svg>
+                        </span>
+                    </label>
+                    <label class="modal-form-field">
+                        <span class="modal-form-input-desc modal-form-input-desc-hidden">Message</span>
+                        <textarea name="user-message" class="modal-form-textarea modal-form-textarea-hidden" placeholder="Text input"></textarea>
+                    </label>
+                    <input id="privacy-policy-hidden" type="checkbox" class="modal-form-check visually-hidden">
+                    <label for="privacy-policy-hidden" class="privacy-policy privacy-policy-hidden">
+                        <span class="modal-form-fake-check">
+                            <svg class="modal-form-check-icon" width="10" height="8">
+                                <use href="./images/symbol-defs.svg#icon-modal-checkbox"></use>
+                            </svg>
+                        </span>I accept the terms and conditions of the&nbsp;<a target="_blank" rel="noopener noreferrer nofolow" class="privacy-policy-link" href="https://pexly.com/privacy-and-gdpr-policy/">Privacy Policy</a>
+                    </label>
+                    <button type="submit" class="modal-form-submit brand-btn modal-form-submit-hidden">Get a Qoute</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
